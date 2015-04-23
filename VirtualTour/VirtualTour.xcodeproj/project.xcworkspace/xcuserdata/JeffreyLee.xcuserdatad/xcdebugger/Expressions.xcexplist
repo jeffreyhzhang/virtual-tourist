@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "VirtualTour.WebUtilities.(getPhotos (VirtualTour.WebUtilities) -&gt; ((result : Swift.Optional&lt;Swift.Array&lt;VirtualTour.Photo&gt;&gt;, error : Swift.Optional&lt;ObjectiveC.NSError&gt;) -&gt; ()) -&gt; ()).(closure #1):Helper.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "results[&quot;photo&quot;].count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VirtualTour.DisplayPhotos.collectionView (VirtualTour.DisplayPhotos)(ObjectiveC.UICollectionView, cellForItemAtIndexPath : ObjectiveC.NSIndexPath) -&gt; ObjectiveC.UICollectionViewCell:DisplayPhotos.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.imgVw">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row ">
+            </PersistentString>
+            <PersistentString
+               value = "Photos2Display">
+            </PersistentString>
+            <PersistentString
+               value = "self.StartPage">
+            </PersistentString>
+            <PersistentString
+               value = "NumberofPhotosPerPage">
+            </PersistentString>
+            <PersistentString
+               value = "StartPage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VirtualTour.DisplayPhotos.collectionView (VirtualTour.DisplayPhotos)(ObjectiveC.UICollectionView, didSelectItemAtIndexPath : ObjectiveC.NSIndexPath) -&gt; ():DisplayPhotos.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "object.photoUrl ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VirtualTour.DisplayPhotos.collectionView (VirtualTour.DisplayPhotos)(ObjectiveC.UICollectionView, numberOfItemsInSection : Swift.Int) -&gt; Swift.Int:DisplayPhotos.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "NumberofPhotosPerPage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VirtualTour.DisplayPhotos.btnNewSetofPhotos (VirtualTour.DisplayPhotos)(ObjectiveC.UIButton) -&gt; ():DisplayPhotos.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "StartPage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VirtualTour.MapVC.viewDidLoad (VirtualTour.MapVC)() -&gt; ():MapVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "object.longitude">
+            </PersistentString>
+            <PersistentString
+               value = "object.latitude">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VirtualTour.MapVC.restoreMapState (VirtualTour.MapVC)() -&gt; ():MapVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "myMapState.centerLatitude">
+            </PersistentString>
+            <PersistentString
+               value = "myMapState.centerLongitude">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VirtualTour.DisplayPhotos.viewDidLoad (VirtualTour.DisplayPhotos)() -&gt; ():DisplayPhotos.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "NumberofPhotosPerPage">
+            </PersistentString>
+            <PersistentString
+               value = "self.fetchedResultsController.fetchedObjects ">
+            </PersistentString>
+            <PersistentString
+               value = "self.fetchedResultsController.fetchedObjects!.count ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
