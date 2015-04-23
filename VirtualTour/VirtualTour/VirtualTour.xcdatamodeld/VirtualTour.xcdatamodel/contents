@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14C109" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="MapRegion" representedClassName="VirtualTour.MapRegion" syncable="YES">
+        <attribute name="centerLatitude" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="centerLongitude" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="spanLatitude" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="spanLogitude" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="Photo" representedClassName="VirtualTour.Photo" syncable="YES">
+        <attribute name="photoTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoUrl" attributeType="String" syncable="YES"/>
+        <relationship name="pin" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Pin" inverseName="photos" inverseEntity="Pin" syncable="YES"/>
+    </entity>
+    <entity name="Pin" representedClassName="VirtualTour.Pin" syncable="YES">
+        <attribute name="latitude" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="photos" toMany="YES" deletionRule="Cascade" destinationEntity="Photo" inverseName="pin" inverseEntity="Photo" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MapRegion" positionX="-45" positionY="45" width="128" height="105"/>
+        <element name="Photo" positionX="-54" positionY="9" width="128" height="90"/>
+        <element name="Pin" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
+</model>
